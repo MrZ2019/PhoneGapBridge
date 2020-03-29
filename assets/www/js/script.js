@@ -7,7 +7,7 @@ function onmenubutton() {
   document.addEventListener("menubutton", function() {
   
     
-    var ip = prompt('请输入新IP地址', config.host);
+    var ip = prompt('请输入新IP地址123', config.host);
     
     if(ip) {
       config.host = ip;
